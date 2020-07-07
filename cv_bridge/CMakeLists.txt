@@ -13,6 +13,8 @@ if(NOT ANDROID)
 else()
 find_package(Boost REQUIRED)
 endif()
+
+SET("OpenCV_DIR"  "/usr/local/share/OpenCV/")
 find_package(OpenCV 3 REQUIRED
   COMPONENTS
     opencv_core
